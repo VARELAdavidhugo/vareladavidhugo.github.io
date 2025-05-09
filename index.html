@@ -1,246 +1,90 @@
-<!DOCTYPE HTML>
-<!--
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Phantom by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<!-- Wrapper -->
-			<div id="wrapper">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>David Hugo VARELA – Portfolio DevOps</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; color: #333; }
+    header, footer { background: #005b96; color: white; padding: 20px 0; text-align: center; }
+    nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
+    .container { padding: 40px; max-width: 900px; margin: auto; }
+    h1 { color: #005b96; }
+    .projects, .certifications { margin-top: 40px; }
+    .project, .cert { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    .contact { background: white; padding: 20px; border-radius: 8px; margin-top: 40px; }
+    .btn { display: inline-block; margin-top: 10px; padding: 10px 20px; background: #005b96; color: white; text-decoration: none; border-radius: 5px; }
+    footer a { color: white; text-decoration: underline; }
+  </style>
+</head>
+<body>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="inner">
+<header>
+  <h1>David Hugo VARELA</h1>
+  <nav>
+    <a href="#projects">Projets</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+    <a href="#cv">CV</a>
+  </nav>
+</header>
 
-							<!-- Logo -->
-								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Phantom</span>
-								</a>
+<div class="container">
+  <section>
+    <h2>Bienvenue sur mon portfolio DevOps</h2>
+    <p>Je suis <strong>David Hugo Varela</strong>, en formation <strong>Administrateur Systèmes DevOps</strong> chez M2i. Passionné par l’automatisation, le cloud, la sécurité et les technologies comme Ansible, Docker, Kubernetes, Terraform et GitHub Actions.</p>
+  </section>
 
-							<!-- Nav -->
-								<nav>
-									<ul>
-										<li><a href="#menu">Menu</a></li>
-									</ul>
-								</nav>
+  <section id="projects" class="projects">
+    <h2>Mes projets</h2>
+    <div class="project">
+      <h3>Infrastructure Hospitalière</h3>
+      <p>Déploiement automatisé avec Ansible, Jenkins, Docker et GitHub sur plusieurs VM.</p>
+      <a href="https://github.com/VARELAdavidhugo/Hospital" class="btn" target="_blank">Voir le projet</a>
+    </div>
+    <div class="project">
+      <h3>CI/CD avec AKS</h3>
+      <p>Pipeline complet avec GitHub Actions, Docker Hub, AKS, Prometheus, Grafana.</p>
+      <a href="https://github.com/VARELAdavidhugo/aks-devops" class="btn" target="_blank">Voir le projet</a>
+    </div>
+    <div class="project">
+      <h3>OFBiz en Microservices</h3>
+      <p>Refonte de l’ERP Apache OFBiz avec Docker, Terraform et déploiement sur GKE.</p>
+      <a href="https://github.com/VARELAdavidhugo/ofbiz-gke-microservices" class="btn" target="_blank">Voir le projet</a>
+    </div>
+  </section>
 
-						</div>
-					</header>
+  <section id="certifications" class="certifications">
+    <h2>Certifications</h2>
+    <div class="cert">
+      <p>📝 <strong>Linux</strong> : Initiez-vous à Linux – OpenClassrooms</p>
+    </div>
+    <div class="cert">
+      <p>🛠️ <strong>Automatisation</strong> : Administrez un système Linux – OpenClassrooms</p>
+    </div>
+    <div class="cert">
+      <p>☁️ <strong>Cloud & Kubernetes</strong> : Orchestrez vos conteneurs avec Kubernetes – OpenClassrooms</p>
+    </div>
+    <a href="https://github.com/VARELAdavidhugo/certifications" class="btn" target="_blank">Voir tous les certificats</a>
+  </section>
 
-				<!-- Menu -->
-					<nav id="menu">
-						<h2>Menu</h2>
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="generic.html">Ipsum veroeros</a></li>
-							<li><a href="generic.html">Tempus etiam</a></li>
-							<li><a href="generic.html">Consequat dolor</a></li>
-							<li><a href="elements.html">Elements</a></li>
-						</ul>
-					</nav>
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>📧 Email : <a href="mailto:vareladavidhugo@gmail.com">vareladavidhugo@gmail.com</a></p>
+    <p>🐙 GitHub : <a href="https://github.com/VARELAdavidhugo" target="_blank">github.com/VARELAdavidhugo</a></p>
+    <p>🐳 Docker Hub : <a href="https://hub.docker.com/u/vareladavid" target="_blank">docker.com/u/vareladavid</a></p>
+    <p>🔗 LinkedIn : <a href="https://www.linkedin.com/in/david-hugo-varela-duran" target="_blank">LinkedIn</a></p>
+  </section>
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-							<header>
-								<h1>This is Phantom, a free, fully responsive site<br />
-								template designed by <a href="http://html5up.net">HTML5 UP</a>.</h1>
-								<p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.</p>
-							</header>
-							<section class="tiles">
-								<article class="style1">
-									<span class="image">
-										<img src="images/pic01.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Magna</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style2">
-									<span class="image">
-										<img src="images/pic02.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Lorem</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style3">
-									<span class="image">
-										<img src="images/pic03.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Feugiat</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style4">
-									<span class="image">
-										<img src="images/pic04.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Tempus</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style5">
-									<span class="image">
-										<img src="images/pic05.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Aliquam</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style6">
-									<span class="image">
-										<img src="images/pic06.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Veroeros</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style2">
-									<span class="image">
-										<img src="images/pic07.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Ipsum</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style3">
-									<span class="image">
-										<img src="images/pic08.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Dolor</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style1">
-									<span class="image">
-										<img src="images/pic09.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Nullam</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style5">
-									<span class="image">
-										<img src="images/pic10.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Ultricies</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style6">
-									<span class="image">
-										<img src="images/pic11.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Dictum</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style4">
-									<span class="image">
-										<img src="images/pic12.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Pretium</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-							</section>
-						</div>
-					</div>
+  <section id="cv">
+    <h2>Mon CV</h2>
+    <a href="CV_David_Hugo_Varela.pdf.pdf" class="btn" download>Télécharger mon CV</a>
+  </section>
+</div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<section>
-								<h2>Get in touch</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<input type="text" name="name" id="name" placeholder="Name" />
-										</div>
-										<div class="field half">
-											<input type="email" name="email" id="email" placeholder="Email" />
-										</div>
-										<div class="field">
-											<textarea name="message" id="message" placeholder="Message"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send" class="primary" /></li>
-									</ul>
-								</form>
-							</section>
-							<section>
-								<h2>Follow</h2>
-								<ul class="icons">
-									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
-									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
-									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
-								</ul>
-							</section>
-							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</footer>
+<footer>
+  <p>© 2025 David Hugo VARELA. Tous droits réservés. | Design adapté depuis <a href="https://html5up.net" target="_blank">HTML5 UP</a></p>
+</footer>
 
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>
